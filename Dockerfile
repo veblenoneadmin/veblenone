@@ -278,8 +278,6 @@ ENV GROUP_ID=
 ENV COMPOSER_MEMORY_LIMIT=-1
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
-# REMOVED: VOLUME [ "/opt/kimai/var" ] - Railway doesn't allow VOLUME
-
 CMD [ "/entrypoint.sh" ]
 
 ###########################
